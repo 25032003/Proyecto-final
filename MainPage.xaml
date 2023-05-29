@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="15"
+            Padding="20"
+            VerticalOptions="Center">
+            <Label 
+                Text="Un verdadero piloto sabe exactamente con lo que cuenta su Vehiculo"
+                SemanticProperties.HeadingLevel="Level1"
+                 HorizontalOptions="Center"
+                FontSize="25"
+                />
+            <Image
+                Source="sedan.html"
+                HeightRequest="350"
+                WidthRequest="350"
+                HorizontalOptions="CenterAndExpand"/>
+            <Label 
+                Text="Selecciona el tipo de Vehiculo que quieras"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="20"
+                HorizontalOptions="Center" />
+            <Label 
+                Text="Si quieres encender el carro dale click en el boton de -Encender el carro- "
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="16"
+                HorizontalOptions="Center" />
+
+
+
+            <Button
+                x:Name="CounterBtn4"
+                Text="Encender el carro"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked4"
+                HorizontalOptions="Center" />
+            
+            <Label 
+                Text="El carro tiene que estar encedido para acelelarlo"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="16"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn6"
+                Text="Acelerar el carro "
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked6"
+                HorizontalOptions="Center" />
+       
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Sedan"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtn9"
+                Text="Bocinar"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked9"
+                HorizontalOptions="Center" />
+            
+
+            <Button
+                x:Name="CounterBtn7"
+                Text="Frenar el carro"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked7"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtn5"
+                Text="Apagar el carro"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked5"
+                HorizontalOptions="Center" />
+
+            <Label x:Name="sedanLabel" Text="" 
+                   HorizontalOptions="Center"
+                   BackgroundColor="DarkGreen"
+                   TextColor="White"/>
+            
+            
+            
+            
+            
+
+
+
+            <Button
+                x:Name="CounterBtn8"
+                Text="Encender el carro"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked8"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtn1"
+                Text="PickUp"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked1"
+                HorizontalOptions="Center" />
+            <Label x:Name="pickUpLabel" Text="" 
+                   HorizontalOptions="Center"
+                   BackgroundColor="Black"
+                   TextColor="White"/>
+            
+            
+            
+            
+            <Button
+                x:Name="CounterBtn2"
+                Text="SUV"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked2"
+                HorizontalOptions="Center" />
+            <Label x:Name="suvLabel" Text="" 
+                   HorizontalOptions="Center"
+                   BackgroundColor="Darkred"
+                   TextColor="White"/>
+            
+            
+            
+            
+            <Button
+                x:Name="CounterBtn3"
+                Text="4 x 4"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked3"
+                HorizontalOptions="Center" />
+            
+            <Label x:Name="cuatroPorCuatroLabel" Text="" 
+                   HorizontalOptions="Center"
+                   BackgroundColor="Darkblue"
+                   TextColor="White"/>
+            
+            
+            
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
